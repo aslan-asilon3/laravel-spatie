@@ -312,26 +312,28 @@ return [
             'url'         => '/home',
             'icon'        => 'far fa-fw fa-file',
             'label_color' => 'success',
-            'can'         => 'view dashboard',
+            'can'         => 'view-dashboard',
         ],
         [
             'text'    => 'Roles And Permissions',
-            'url'     => '#',
+            'url'     => '',
+            'can'         => '',
             'submenu' => [
                 [
                     'text' => 'Users',
                     'url'  => 'users',
-                    // 'can'  => '',
+                    'can'  => 'user-list',
                 ],
                 [
                     'text' => 'Roles',
                     'url'  => 'roles',
-                    // 'can'  => 'role-edit|role-delete',
+                    'can'  => 'role-list',
+                    'can'  => 'role-create',
                 ],
                 [
                     'text' => 'Products',
                     'url'  => 'products',
-                    // 'can'  => 'product-index|product-edit|product-delete',
+                    'can'  => 'product-list',
                 ],
             ],
         ],
@@ -348,7 +350,7 @@ return [
             'url'         => '/pricing',
             'icon'        => 'far fa-fw fa-file',
             'label_color' => 'success',
-            'can'         => 'view pricing',
+            'can'         => 'view-pricing',
         ],
        
     ],

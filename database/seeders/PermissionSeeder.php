@@ -42,10 +42,10 @@ class PermissionSeeder extends Seeder
 
         $adminRole = Role::create(['name' => 'admin']);
 
-        $adminRole->givePermissionTo('user-list');
-        $adminRole->givePermissionTo('user-create');
-        $adminRole->givePermissionTo('user-edit');
-        $adminRole->givePermissionTo('user-delete');
+        // $adminRole->givePermissionTo('user-list');
+        // $adminRole->givePermissionTo('user-create');
+        // $adminRole->givePermissionTo('user-edit');
+        // $adminRole->givePermissionTo('user-delete');
 
         $adminRole->givePermissionTo('product-list');
         $adminRole->givePermissionTo('product-create');
@@ -53,9 +53,9 @@ class PermissionSeeder extends Seeder
         $adminRole->givePermissionTo('product-delete');
 
         $adminRole->givePermissionTo('role-list');
-        $adminRole->givePermissionTo('role-create');
-        $adminRole->givePermissionTo('role-edit');
-        $adminRole->givePermissionTo('role-delete');
+        // $adminRole->givePermissionTo('role-create');
+        // $adminRole->givePermissionTo('role-edit');
+        // $adminRole->givePermissionTo('role-delete');
 
         $adminRole->givePermissionTo('view-dashboard');
         $adminRole->givePermissionTo('view-features');
