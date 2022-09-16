@@ -1,0 +1,9 @@
+https://imansugirman.com/menggunakan-laravel-permission-dari-spatie
+
+
+https://qadrlabs.com/post/belajar-laravel-8-roles-and-permissions
+
+php artisan migrate:fresh --seed --seeder=PermissionSeeder 
+
+
+https://www.codecheef.org/article/laravel-spatie-roles-and-permissions-tutorial-from-scratch
