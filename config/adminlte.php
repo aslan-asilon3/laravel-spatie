@@ -328,7 +328,6 @@ return [
                     'text' => 'Roles',
                     'url'  => 'roles',
                     'can'  => 'role-list',
-                    'can'  => 'role-create',
                 ],
                 [
                     'text' => 'Products',
